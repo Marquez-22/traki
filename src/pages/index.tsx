@@ -112,7 +112,7 @@ export default function Index() {
           </>)}
           listCategorias={[
             {
-              img: "/img/trakiMan1.jpg",
+              img: "/img/TrakiMan1.jpg",
               text: "Encuentra la moda en  TRK Man",
               button: "Descubre Mas",
 
@@ -125,7 +125,7 @@ export default function Index() {
 
             },
             {
-              img: "/img/trakiMan3.jpg",
+              img: "/img/TrakiMan3.jpg",
               text: "Combina tus Looks",
               button: "Descubre Mas",
             }

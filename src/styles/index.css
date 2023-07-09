@@ -161,6 +161,7 @@ body {
 
 .Footer {
   background: var(--color-headfooter);
+  padding-block: 2rem;
 }
 .Footer .contentFooter {
   display: grid;
