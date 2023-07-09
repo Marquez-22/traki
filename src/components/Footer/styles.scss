@@ -1,0 +1,106 @@
+.Footer {
+    background: var(--color-headfooter);
+
+
+    .contentFooter {
+
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 2rem;
+
+        @media (max-width:767px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (max-width:575px) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .text3 {
+        margin: 0;
+        cursor: pointer;
+
+        &:hover {
+            color: var(--color-squant);
+        }
+    }
+
+    .clmn1 {
+
+        .trakilogo1 {
+            width: min(100%, 8rem);
+
+        }
+
+        .history {}
+    }
+
+    .clmn2 {
+
+        .location {
+            cursor: pointer;
+
+        }
+
+        .contentLocation {
+            display: grid;
+            gap: .7rem;
+
+            a{
+                text-decoration: none;
+
+            }
+            .text {
+                margin: 0;
+                &:hover {
+                    text-decoration: underline;
+                    color: var(--color-squant)
+                }
+            }
+
+
+        }
+    }
+
+    .clmn3 {
+        cursor: pointer;
+
+        .Contactanos {
+            display: flex;
+            align-items: center;
+            gap: .7rem;
+
+            .text {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .clmn4 {
+        cursor: pointer;
+        .redes {
+            padding-top: 1rem;
+            gap: .5rem;
+            display: flex;
+        }
+    }
+
+    svg {
+        width: 1.7rem;
+        height: 1.8rem;
+
+        &:hover {
+            fill: var(--color-squant);
+        }
+    }
+
+    .text4 {
+        text-decoration: none;
+        &:hover {
+            color: var(--color-squant);
+        }
+    }
+}

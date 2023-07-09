@@ -1,0 +1,23 @@
+.MenuLeft {
+    svg {
+        
+        &:hover {
+            fill: var(--color-squant);
+        }
+    }
+
+    a {
+        text-decoration: none;
+
+
+    }
+
+    .text4 {
+        display: flex;
+        gap: 1rem;
+
+        &:hover {
+            color: var(--color-squant);
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.ButtonMenu {
+
+    cursor: pointer;
+    display: grid;
+    grid-template-areas: "A";
+
+    &:hover {
+        .menubar{
+            fill: var( --color-squant);
+        }
+        .close{
+            fill: var( --color-squant);
+        }
+    }
+    .menubar {
+        transition: opacity .1s;
+        grid-area: A;
+
+
+    }
+
+    .close {
+        transition: opacity .1s;
+        grid-area: A;
+
+
+    }
+
+    &.active {
+        .menubar {
+            opacity: 0;
+        }
+    }
+
+    &.inactive {
+
+        .close {
+            opacity: 0;
+        }
+
+    }
+
+    svg {
+        width: 1.5rem;
+        height: 1.8rem;
+
+    }
+}
