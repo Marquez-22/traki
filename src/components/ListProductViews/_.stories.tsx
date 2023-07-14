@@ -20,6 +20,8 @@ Index.args = {
             name: "Vestido Valentina",
             description: "Vestido casual basico unicolor",
             precio: 100000,
+            id:""
+            
 
         },
 
@@ -28,6 +30,7 @@ Index.args = {
             name: "Vestido Valentina",
             description: "Vestido casual basico unicolor",
             precio: 100000,
+            id:""
         },
 
         {
@@ -35,6 +38,7 @@ Index.args = {
             name:"Vestido Valentina",
             description:"Vestido casual basico unicolor",
             precio:100000,
+            id:""
         },
 
         {
@@ -42,6 +46,7 @@ Index.args = {
             name:"Vestido Valentina",
             description:"Vestido casual basico unicolor",
             precio:100000,
+            id:""
         }
 
     ],
