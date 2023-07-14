@@ -1,0 +1,39 @@
+.FormularioLogin {
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .titulo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .crearcontraseña{
+        cursor: pointer;
+        text-align: center;
+        &:hover{
+        color:var(--color--bern-red);     
+        }
+       
+    }
+
+    .btntraki{
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        
+    }
+    .btn1{
+        width: 50%;
+    }
+    .Logo{
+        display: flex;
+        justify-content: center;
+       
+    }
+
+
+}

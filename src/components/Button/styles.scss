@@ -1,19 +1,24 @@
-.btn1 {
+.btn{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.12rem;
     font-weight: 400;
-    color: var( --color-granitine);
+    color: var(--color-granitine);
     border-radius: .4rem;
-    border: 2px solid var( --color-ardcoat);
+    border: 2px solid var(--color-ardcoat);
     padding: 1rem 1.5rem;
     background: var(--color-ardcoat);
     cursor: pointer;
+
     &:hover {
-    
+
         background: var(--color--bern-red);
         color: var(--color-piquant-pink);
         border-color: var(--color--bern-red);
 
+    }
+
+    &1 {
+        color: var(--color-black);
     }
 
 

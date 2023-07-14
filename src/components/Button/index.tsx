@@ -1,16 +1,16 @@
 import { ReactNode } from "react"
 
-export type ButtonType = "btn1" | "btn2" | "btn3"
+export type ButtonType = "btn" | "btn1" | "btn2"
 
 export interface ButtonProps {
     children?: ReactNode
     className?: string
     styleTemplate?:ButtonType
 }
-export const Button = ({ children,className="",styleTemplate="btn1" }: ButtonProps) => {
+export const Button = ({ children,className="",styleTemplate="btn" }: ButtonProps) => {
     return (
         <>
-            <button className={`btn1 ${className} ${styleTemplate}`}>
+            <button className={`btn ${className} ${styleTemplate}`}>
                 {children}
             </button>
         </>

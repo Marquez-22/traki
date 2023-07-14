@@ -1,0 +1,93 @@
+.CategoryStore {
+    background: var(--color-headfooter);
+
+
+
+
+    .name {
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .description {
+        line-height: 1.2rem;
+        height: calc(1.2rem * 3);
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .vistaCategory {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .contentVista {
+        grid-area: 1 / 1 / 2 / 2;
+
+        z-index: 10;
+        padding: .5rem;
+        display: flex;
+        justify-content: flex-end;
+        .vista {
+
+            border-radius: 2rem;
+            border: 1px solid var(--color-squant);
+            background: var(--color-squant2);
+            width: 2.2rem;
+            height: 2.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            &:hover {
+                background: var(--color--bern-red);
+                border-color: var(--color--bern-red);
+
+                svg {
+                    fill: var(--color-squant2);
+                }
+            }
+        }
+
+
+    }
+
+    .contentImg {
+        grid-area: 1 / 1 / 2 / 2;
+        width: 100%;
+        height: 22rem;
+        overflow: hidden;
+
+        .img {
+            width: 100%;
+            height: 22rem;
+            object-fit: cover;
+            transition: .5s;
+
+        }
+    }
+    &:hover {
+        .contentImg {
+            .img {
+                transform: scale(1.2);
+    
+            }
+        }
+    }
+
+    svg {
+        width: 1.4rem;
+        height: 1.4rem;
+
+    }
+
+    .informationProduc {
+        padding: 1rem 1rem;
+    }
+}

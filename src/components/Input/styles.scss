@@ -1,0 +1,21 @@
+.Label {
+
+    .Input {
+        background: var(--color-squant2);
+        width: 100%;
+        color: var(--color-black);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+
+        &::placeholder {
+            color: var(--color-black);
+        }
+
+        border-radius: .7rem;
+        border: 0;
+        border-bottom: 2px var(--color-squant2) solid;
+        padding: 1rem 1.5rem;
+    }
+
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 html {
   font-size: 16px;
@@ -26,6 +27,7 @@ body {
   --color-squant: #666666;
   --color-headfooter: #fbfbfb;
   --color--bern-red:#e10a0a;
+  --color-squant2:#dddada;
   --header-height:4rem;
 }
 
@@ -71,7 +73,7 @@ body {
   background: transparent;
 }
 
-.btn1 {
+.btn {
   font-family: "Montserrat", sans-serif;
   font-size: 1.12rem;
   font-weight: 400;
@@ -82,10 +84,13 @@ body {
   background: var(--color-ardcoat);
   cursor: pointer;
 }
-.btn1:hover {
+.btn:hover {
   background: var(--color--bern-red);
   color: var(--color-piquant-pink);
   border-color: var(--color--bern-red);
+}
+.btn1 {
+  color: var(--color-black);
 }
 
 .text {
@@ -114,6 +119,15 @@ body {
 .text5 {
   font-size: 1rem;
   font-weight: 300;
+}
+.text6 {
+  font-size: 1.12rem;
+  font-weight: 400;
+  color: var(--color-granitine);
+}
+.text7 {
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .Logo .trakilogo {
@@ -161,7 +175,7 @@ body {
 
 .Footer {
   background: var(--color-headfooter);
-  padding-block: 2rem;
+  padding-block: 2 rem;
 }
 .Footer .contentFooter {
   display: grid;
@@ -271,7 +285,7 @@ body {
 .Header {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 12;
   background: var(--color-headfooter);
 }
 @media (max-width: 575px) {
@@ -360,15 +374,136 @@ body:has(.ButtonMenu.active) .HeaderContentMenuLef {
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 1rem;
 }
+.ContentCol2 {
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
 
 .Container {
   width: min(100%, 80rem);
   margin-inline: auto;
   padding-inline: 1rem;
 }
+.Container1 {
+  width: min(100%, 40rem);
+}
 
 .LayoutContent {
   padding-block: 3rem;
+}
+
+.FormularioLogin .formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.FormularioLogin .titulo {
+  margin: 0;
+  text-align: center;
+}
+.FormularioLogin .crearcontraseña {
+  cursor: pointer;
+  text-align: center;
+}
+.FormularioLogin .crearcontraseña:hover {
+  color: var(--color--bern-red);
+}
+.FormularioLogin .btntraki {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.FormularioLogin .btn1 {
+  width: 50%;
+}
+.FormularioLogin .Logo {
+  display: flex;
+  justify-content: center;
+}
+
+.Label .Input {
+  background: var(--color-squant2);
+  width: 100%;
+  color: var(--color-black);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 0.7rem;
+  border: 0;
+  border-bottom: 2px var(--color-squant2) solid;
+  padding: 1rem 1.5rem;
+}
+.Label .Input::placeholder {
+  color: var(--color-black);
+}
+
+.CategoryStore {
+  background: var(--color-headfooter);
+}
+.CategoryStore .name {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.CategoryStore .description {
+  line-height: 1.2rem;
+  height: 3.6rem;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.CategoryStore .vistaCategory {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.CategoryStore .contentVista {
+  grid-area: 1/1/2/2;
+  z-index: 10;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.CategoryStore .contentVista .vista {
+  border-radius: 2rem;
+  border: 1px solid var(--color-squant);
+  background: var(--color-squant2);
+  width: 2.2rem;
+  height: 2.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.CategoryStore .contentVista .vista:hover {
+  background: var(--color--bern-red);
+  border-color: var(--color--bern-red);
+}
+.CategoryStore .contentVista .vista:hover svg {
+  fill: var(--color-squant2);
+}
+.CategoryStore .contentImg {
+  grid-area: 1/1/2/2;
+  width: 100%;
+  height: 22rem;
+  overflow: hidden;
+}
+.CategoryStore .contentImg .img {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.CategoryStore:hover .contentImg .img {
+  transform: scale(1.2);
+}
+.CategoryStore svg {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.CategoryStore .informationProduc {
+  padding: 1rem 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */

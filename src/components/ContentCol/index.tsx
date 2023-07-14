@@ -2,7 +2,7 @@ import { ReactNode } from "react"
 
 
 
-export type ContentColType = "ContentCol" | "ContentCol1"
+export type ContentColType = "ContentCol1" | "ContentCol2"
 
 export interface ContentColProps {
     children?: ReactNode

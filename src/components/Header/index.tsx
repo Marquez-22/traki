@@ -5,6 +5,7 @@ import { Logo } from "../Logo"
 import { Instagram } from "../../SVG/instagram"
 import { MenuLeft } from "../Menuletf"
 import { Container } from "../Container"
+import Link from "next/link"
 
 export type HeaderType = "Header"
 export interface HeaderProps {
@@ -30,7 +31,11 @@ export const Header = ({ styleTemplate = "Header" }: HeaderProps) => {
                     <InputSearch />
 
                     <div className="redes">
+                    <Link href="/login">
                         <User />
+                    </Link>
+                        
+
                         <Instagram />
                     </div>
                 </div>
