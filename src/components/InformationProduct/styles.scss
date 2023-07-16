@@ -2,14 +2,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
-    --size:max(100dvh,30rem);
+    --size: max(100dvh, 30rem);
     @media(max-width: 767px) {
         grid-template-columns: 1fr;
     }
-    
-
     .contentImage {
         display: flex;
+
         .imagenProduct {
             width: 100%;
             max-height: var(--size);
@@ -17,14 +16,11 @@
             display: block;
         }
     }
-
-
     .DetalleProduct {
         align-content: flex-start;
         row-gap: 1.9rem;
         display: grid;
-
-
+        padding-block: 1rem;
         p {
             margin: 0;
         }
@@ -34,48 +30,46 @@
     .contentColorTallaSelect {
         display: grid;
         row-gap: 1rem;
-
-
     }
 
     .buttonCarritoComprar {
         @media(max-width: 767px) {
             display: grid;
-            row-gap: 1rem;
+            gap: 1rem;
+            grid-template-columns: 1fr 1fr;
         }
         @media(max-width: 575px) {
-       width: 45%;
+            display: grid;
+            row-gap: 1rem;
+            grid-template-columns: 1fr;
         }
-    
-
-
 
         display: flex;
         gap:1rem
-
-
     }
 
-    .CartShopping{
+    .CartShopping {
         display: flex;
-        gap:1rem;
-        
-        &:hover{
-            svg{
-                fill:var(  --color-squant2)
+        gap: 1rem;
+
+
+        &:hover {
+            svg {
+                fill: var(--color-squant2)
             }
         }
-    }
-    .Shopping{
-        display: flex;
-        gap:1rem;
-        
-        &:hover{
-            svg{
-                fill:var(  --color-squant2)
-            }
+
+        @media(max-width: 575px) {
+            width: 100%;
         }
+
+
+
     }
+
+
+
+
 
 
 }

@@ -546,7 +546,7 @@ body:has(.ButtonMenu.active) .HeaderContentMenuLef {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 25px;
-  --size:max(100dvh,30rem);
+  --size: max(100dvh, 30rem);
 }
 @media (max-width: 767px) {
   .InformationProduct {
@@ -566,6 +566,7 @@ body:has(.ButtonMenu.active) .HeaderContentMenuLef {
   align-content: flex-start;
   row-gap: 1.9rem;
   display: grid;
+  padding-block: 1rem;
 }
 .InformationProduct .DetalleProduct p {
   margin: 0;
@@ -581,12 +582,15 @@ body:has(.ButtonMenu.active) .HeaderContentMenuLef {
 @media (max-width: 767px) {
   .InformationProduct .buttonCarritoComprar {
     display: grid;
-    row-gap: 1rem;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (max-width: 575px) {
   .InformationProduct .buttonCarritoComprar {
-    width: 45%;
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 1fr;
   }
 }
 .InformationProduct .CartShopping {
@@ -596,12 +600,10 @@ body:has(.ButtonMenu.active) .HeaderContentMenuLef {
 .InformationProduct .CartShopping:hover svg {
   fill: var(--color-squant2);
 }
-.InformationProduct .Shopping {
-  display: flex;
-  gap: 1rem;
-}
-.InformationProduct .Shopping:hover svg {
-  fill: var(--color-squant2);
+@media (max-width: 575px) {
+  .InformationProduct .CartShopping {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -92,7 +92,7 @@ export const InformationProduct = ({ tallas, precio, name, img, id, description,
                             {buttoncart}
                         </Button>
 
-                        <Button className="Shopping" >
+                        <Button className="CartShopping" >
                             <Shopping />
                             {buttonshopping}
                         </Button>
