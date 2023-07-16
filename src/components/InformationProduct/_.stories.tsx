@@ -14,6 +14,23 @@ const Profile: Story<InformationProductProps> = (args) => (
 
 export const Index = Profile.bind({});
 Index.args = {
+        img:"/img/traki1.jpg",
+        name:"Talego Dulce",
+        precio:100000,
+        description:"Talego corto unicolor, en popelina, manga tira con gola, encauchado atrás",
+        id:"DU02CV",
+        tallas:["XS","S","M","L","XL"],
+        color:["Negro", "Azul", "Blanco","Rojo"],
+        cantidad:10,
+        buttoncart:"Añadir al carrito",
+        buttonshopping:"Comprar Ahora",
         
-        styleTemplate:"InformationProduct1"
-};
+styleTemplate:"InformationProduct"
+}
+
+
+
+
+
+
+        

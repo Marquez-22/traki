@@ -506,4 +506,102 @@ body:has(.ButtonMenu.active) .HeaderContentMenuLef {
   padding: 1rem 1rem;
 }
 
+.InputSelect {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-granitine);
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid var(--color-squant2);
+  padding: 0.6rem 1.9rem;
+}
+.InputSelect:hover {
+  background: var(--color-squant2);
+}
+
+.InputQuantity {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.InputQuantity .Circle {
+  cursor: pointer;
+}
+.InputQuantity .Data {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-granitine);
+  font-family: "Montserrat", sans-serif;
+  min-width: 1rem;
+}
+.InputQuantity svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--color-granitine);
+}
+.InputQuantity svg:hover {
+  fill: var(--color-squant);
+}
+
+.InformationProduct {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  --size:max(100dvh,30rem);
+}
+@media (max-width: 767px) {
+  .InformationProduct {
+    grid-template-columns: 1fr;
+  }
+}
+.InformationProduct .contentImage {
+  display: flex;
+}
+.InformationProduct .contentImage .imagenProduct {
+  width: 100%;
+  max-height: var(--size);
+  object-fit: cover;
+  display: block;
+}
+.InformationProduct .DetalleProduct {
+  align-content: flex-start;
+  row-gap: 1.9rem;
+  display: grid;
+}
+.InformationProduct .DetalleProduct p {
+  margin: 0;
+}
+.InformationProduct .contentColorTallaSelect {
+  display: grid;
+  row-gap: 1rem;
+}
+.InformationProduct .buttonCarritoComprar {
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width: 767px) {
+  .InformationProduct .buttonCarritoComprar {
+    display: grid;
+    row-gap: 1rem;
+  }
+}
+@media (max-width: 575px) {
+  .InformationProduct .buttonCarritoComprar {
+    width: 45%;
+  }
+}
+.InformationProduct .CartShopping {
+  display: flex;
+  gap: 1rem;
+}
+.InformationProduct .CartShopping:hover svg {
+  fill: var(--color-squant2);
+}
+.InformationProduct .Shopping {
+  display: flex;
+  gap: 1rem;
+}
+.InformationProduct .Shopping:hover svg {
+  fill: var(--color-squant2);
+}
+
 /*# sourceMappingURL=index.css.map */

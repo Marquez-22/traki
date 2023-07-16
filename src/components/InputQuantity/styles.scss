@@ -1,0 +1,30 @@
+.InputQuantity {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    .Circle{
+        cursor: pointer;
+    }
+
+    .Data {
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--color-granitine);
+        font-family: 'Montserrat', sans-serif;
+        min-width: 1rem;
+        
+    }
+
+
+
+    svg {
+        width: 1.5rem;
+        height: 1.5rem;
+        fill: var(--color-granitine);
+        &:hover{
+            fill:var(--color-squant)
+        }
+
+    }
+}
