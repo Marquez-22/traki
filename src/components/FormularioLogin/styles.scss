@@ -10,29 +10,38 @@
         text-align: center;
     }
 
-    .crearcontraseña{
+    .crearcontraseña {
         cursor: pointer;
         text-align: center;
-        &:hover{
-        color:var(--color--bern-red);     
+
+        &:hover {
+            color: var(--color--bern-red);
         }
-       
+
     }
 
-    .btntraki{
+
+    .btntraki {
         width: 100%;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 1rem;
         justify-content: center;
-        
+
+        a {
+            display: block;
+            width: 100%;
+            text-decoration: none;
+        }
+        .btn{
+            width: 100%;
+        }
     }
-    .btn1{
-        width: 50%;
-    }
-    .Logo{
+
+    .Logo {
         display: flex;
         justify-content: center;
-       
+
     }
 
 

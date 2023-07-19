@@ -1,0 +1,40 @@
+.CircleImages {
+    display: inline-block;
+    text-align: center;
+
+   
+
+    .ContentImage {
+        width: 12rem;
+        height: 12rem;
+
+        .MiniaturasCategorias {
+            border-radius: 6rem;
+            border: 2px solid var(--color-squant2);
+            cursor: pointer;
+            width: 12rem;
+            height: 12rem;
+            object-fit: cover;
+            transition: .5s;
+            overflow: hidden;
+
+            &:hover {
+
+                transform: scale(1.1);
+
+            }
+
+            &:hover {
+                border-color: var(--color-granitine);
+
+            }
+
+
+        }
+    }
+
+
+
+
+    .text {}
+}

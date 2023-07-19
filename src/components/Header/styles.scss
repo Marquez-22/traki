@@ -59,6 +59,7 @@
     max-width: 100%;
     background: var(--color-headfooter);
     transform: translateX(-100%);
+    z-index: 12;
 }
 
 body:has(.ButtonMenu.active) {

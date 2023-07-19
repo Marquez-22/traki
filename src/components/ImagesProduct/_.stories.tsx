@@ -16,7 +16,7 @@ export const Index = Profile.bind({});
 Index.args = {
     
     styleTemplate:"ImagesProduct",
-    img:"/img/traki1.jpg",
+    img:"/img/trakiwoman/traki1.jpg",
     button:"Descubre Mas",
     text:"Lo nuevo en TRK Woman"
   

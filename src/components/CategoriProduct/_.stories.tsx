@@ -24,17 +24,17 @@ Index.args = {
     listCategorias:[
         {
             button:"aaaaaaaaaa",
-            img:"/img/traki1.jpg",
+            img:"/img/trakiwoman/traki1.jpg",
             text:"assad"
         },
         {
             button:"asdasd",
-            img:"/img/traki1.jpg",
+            img:"/img/trakiwoman/traki1.jpg",
             text:"assad"
         },
         {
             button:"asdasd",
-            img:"/img/traki1.jpg",
+            img:"/img/trakiwoman/traki1.jpg",
             text:"assad"
         },
     ]

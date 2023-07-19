@@ -32,25 +32,25 @@ export const MenuLeft = ({ styleTemplate = "MenuLeft" }: MenuLeftProps) => {
                         Damas
                     </Text>
                 </Link>
-                <Link href={"/Niños"}>
+                <Link href={"/nino "}>
                     <Text styleTemplate="text4">
                         <Niños />
                         Niños
                     </Text>
                 </Link>
-                <Link href={"/Caballeros"}>
+                <Link href={"/caballero"}>
                     <Text styleTemplate="text4">
                         <Man />
                         Caballeros
                     </Text>
                 </Link>
-                <Link href={"/Hogar"}>
+                <Link href={"/hogar"}>
                     <Text styleTemplate="text4">
                         <Home />
                         Hogar
                     </Text>
                 </Link>
-                <Link href={"/Mobiliario"}>
+                <Link href={"/mobiliario"}>
                     <Text styleTemplate="text4">
                         <Forniture />
                         Mobiliario

@@ -330,6 +330,7 @@ body {
   max-width: 100%;
   background: var(--color-headfooter);
   transform: translateX(-100%);
+  z-index: 12;
 }
 
 body:has(.ButtonMenu.active) .HeaderContentMenuLef {
@@ -409,12 +410,18 @@ body:has(.ButtonMenu.active) .HeaderContentMenuLef {
 }
 .FormularioLogin .btntraki {
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
   justify-content: center;
 }
-.FormularioLogin .btn1 {
-  width: 50%;
+.FormularioLogin .btntraki a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+.FormularioLogin .btntraki .btn {
+  width: 100%;
 }
 .FormularioLogin .Logo {
   display: flex;
@@ -604,6 +611,82 @@ body:has(.ButtonMenu.active) .HeaderContentMenuLef {
   .InformationProduct .CartShopping {
     width: 100%;
   }
+}
+
+.CircleImages {
+  display: inline-block;
+  text-align: center;
+}
+.CircleImages .ContentImage {
+  width: 12rem;
+  height: 12rem;
+}
+.CircleImages .ContentImage .MiniaturasCategorias {
+  border-radius: 6rem;
+  border: 2px solid var(--color-squant2);
+  cursor: pointer;
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.CircleImages .ContentImage .MiniaturasCategorias:hover {
+  transform: scale(1.1);
+}
+.CircleImages .ContentImage .MiniaturasCategorias:hover {
+  border-color: var(--color-granitine);
+}
+.ThemeContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+@media (max-width: 991px) {
+  .ThemeContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
+@media (max-width: 575px) {
+  .ThemeContent {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+.FormularioRegister .formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.FormularioRegister .datosPersonales {
+  margin: 0;
+  text-align: center;
+}
+.FormularioRegister .btn1 {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.InputCheckbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.InputCheckbox .checkbox {
+  height: 1.2rem;
+  width: 1.2rem;
+  accent-color: var(--color-black);
+  box-shadow: inset 0 0 0 3px var(--color-sonic-silver);
+}
+.InputCheckbox .checkbox:checked {
+  box-shadow: none;
 }
 
 /*# sourceMappingURL=index.css.map */

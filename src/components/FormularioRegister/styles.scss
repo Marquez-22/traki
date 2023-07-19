@@ -1,0 +1,26 @@
+
+.FormularioRegister {
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .datosPersonales {
+        margin: 0;
+        text-align: center;
+    }
+
+
+    .btn1{
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        
+    }
+   
+   
+
+
+}

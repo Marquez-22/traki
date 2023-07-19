@@ -20,161 +20,161 @@ export default function Home() {
 
 
                             {
-                                img: "/img/trakiwoman1.jpg",
+                                img: "/img/trakiwoman/trakiwoman1.jpg",
                                 name: "Conjunto Violeta",
                                 description: "casual, basico ",
                                 precio: 180000,
                                 id: "1.1"
                             },
                             {
-                                img: "/img/trakiwoman2.jpg",
+                                img: "/img/trakiwoman/trakiwoman2.jpg",
                                 name: "Camisa",
                                 description: "sencilla, fresca",
                                 precio: 25000,
                                 id: "2.2"
                             },
                             {
-                                img: "/img/trakiwoman3.jpg",
+                                img: "/img/trakiwoman/trakiwoman3.jpg",
                                 name: "Conjunto",
                                 description: "Casual, basico, unicolor",
                                 precio: 100000,
                                 id: "3.3"
                             },
                             {
-                                img: "/img/trakiwoman4.jpg",
+                                img: "/img/trakiwoman/trakiwoman4.jpg",
                                 name: "Vestido Valentina",
                                 description: "Vestido casual basico unicolor",
                                 precio: 100000,
                                 id: "1"
                             },
                             {
-                                img: "/img/trakiwoman5.jpeg",
+                                img: "/img/trakiwoman/trakiwoman5.jpeg",
                                 name: "Blusa unicolor ",
                                 description: "Blusa tela suave,fresca,unicolor,",
                                 precio: 25000,
                                 id: "2"
                             },
                             {
-                                img: "/img/trakiwoman5.jpg",
+                                img: "/img/trakiwoman/trakiwoman5.jpg",
                                 name: "Vestido Florencia",
                                 description: "Colores a la moda, versatiles",
                                 precio: 13000,
                                 id: "3"
                             },
                             {
-                                img: "/img/trakiwoman6.jpg",
+                                img: "/img/trakiwoman/trakiwoman6.jpg",
                                 name: "Vestido Elegante ",
                                 description: "Ideal para eventos especiales",
                                 precio: 180000,
                                 id: "4"
                             },
                             {
-                                img: "/img/trakiwoman7.jpg",
+                                img: "/img/trakiwoman/trakiwoman7.jpg",
                                 name: "Enterizo ",
                                 description: "Enterizo tela fresca, stresh,unicolor",
                                 precio: 110000,
                                 id: "5"
                             },
                             {
-                                img: "/img/trakiwoman8.jpg",
+                                img: "/img/trakiwoman/trakiwoman8.jpg",
                                 name: "Vestido Melty",
                                 description: "Vestido con estampados tela fresca, strech",
                                 precio: 130000,
                                 id: "6"
                             },
                             {
-                                img: "/img/trakiwoman9.jpeg",
+                                img: "/img/trakiwoman/trakiwoman9.jpeg",
                                 name: "Conjunto blusa, pantalon",
                                 description: "colores a la moda, versatiles,outfit casual",
                                 precio: 20000,
                                 id: "7"
                             },
                             {
-                                img: "/img/trakiwoman10.jpg",
+                                img: "/img/trakiwoman/trakiwoman10.jpg",
                                 name: "Vestido Ani",
                                 description: "Vestido unicolor tela fresca, strech",
                                 precio: 180000,
                                 id: "8"
                             },
                             {
-                                img: "/img/trakiwoman4.jpg",
+                                img: "/img/trakiwoman/trakiwoman4.jpg",
                                 name: "Vestido Valentina",
                                 description: "Vestido casual basico unicolor",
                                 precio: 100000,
                                 id: "9"
                             },
                             {
-                                img: "/img/trakiwoman5.jpeg",
+                                img: "/img/trakiwoman/trakiwoman5.jpeg",
                                 name: "Blusa unicolor ",
                                 description: "Blusa tela suave,fresca,unicolor,",
                                 precio: 25000,
                                 id: "10"
                             },
                             {
-                                img: "/img/trakiwoman5.jpg",
+                                img: "/img/trakiwoman/trakiwoman5.jpg",
                                 name: "Vestido Florencia",
                                 description: "Colores a la moda, versatiles",
                                 precio: 13000,
                                 id: "11"
                             },
                             {
-                                img: "/img/trakiwoman6.jpg",
+                                img: "/img/trakiwoman/trakiwoman6.jpg",
                                 name: "Vestido Elegante ",
                                 description: "Ideal para eventos especiales",
                                 precio: 180000,
                                 id: "12"
                             },
                             {
-                                img: "/img/trakiwoman7.jpg",
+                                img: "/img/trakiwoman/trakiwoman7.jpg",
                                 name: "Enterizo ",
                                 description: "Enterizo tela fresca, stresh,unicolor",
                                 precio: 110000,
                                 id: "13"
                             },
                             {
-                                img: "/img/trakiwoman8.jpg",
+                                img: "/img/trakiwoman/trakiwoman8.jpg",
                                 name: "Vestido Melty",
                                 description: "Vestido con estampados tela fresca, strech",
                                 precio: 130000,
                                 id: "14"
                             },
                             {
-                                img: "/img/trakiwoman9.jpeg",
+                                img: "/img/trakiwoman/trakiwoman9.jpeg",
                                 name: "Conjunto blusa, pantalon",
                                 description: "colores a la moda, versatiles,outfit casual",
                                 precio: 20000,
                                 id: "15"
                             },
                             {
-                                img: "/img/trakiwoman10.jpg",
+                                img: "/img/trakiwoman/trakiwoman10.jpg",
                                 name: "Vestido Ani",
                                 description: "Vestido unicolor tela fresca, strech",
                                 precio: 180000,
                                 id: "16"
                             },
                             {
-                                img: "/img/trakiwoman11.jpg",
+                                img: "/img/trakiwoman/trakiwoman11.jpg",
                                 name: "Blusa",
                                 description: "versatil, ajustada a la moda",
                                 precio: 45000,
                                 id: "17"
                             },
                             {
-                                img: "/img/trakiwoman12.jpg",
+                                img: "/img/trakiwoman/trakiwoman12.jpg",
                                 name: "Conjunto",
                                 description: " versatil, ajustada a la moda",
                                 precio: 200000,
                                 id: "18"
                             },
                             {
-                                img: "/img/trakiwoman13.jpg",
+                                img: "/img/trakiwoman/trakiwoman13.jpg",
                                 name: "Chaleco",
                                 description: "versatil, ajustada a la moda",
                                 precio: 50000,
                                 id: "19"
                             },
                             {
-                                img: "/img/trakiwoman14.jpg",
+                                img: "/img/trakiwoman/trakiwoman14.jpg",
                                 name: "Pantalon de vestir",
                                 description: "versatil, ajustada a la moda",
                                 precio: 45000,

@@ -14,7 +14,7 @@ const Profile: Story<CategoryStoreProps> = (args) => (
 
 export const Index = Profile.bind({});
 Index.args = {
-        img: "/img/trakiwoman4.jpg",
+        img: "/img/trakiwoman/trakiwoman4.jpg",
         name:"Vestido Valentina",
         description:"Basico vestido casual unicolor",
         precio:65000,

@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Button } from "../Button"
 import { Container } from "../Container"
 import { Input } from "../Input"
@@ -34,7 +35,10 @@ export const FormularioLogin = ({ styleTemplate = "FormularioLogin" }: Formulari
                         type="password"
                     />
                     <div className="btntraki">
-                        <Button styleTemplate="btn1"> Registrar</Button>
+                        <Link href={"/register"}>
+                            <Button styleTemplate="btn1"> Registrar</Button>
+                        </Link>
+                        
                         <Button styleTemplate="btn1"> Ingresar</Button>
                     </div>
 

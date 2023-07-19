@@ -16,7 +16,7 @@ export const Index = Profile.bind({});
 Index.args = {
     productViews: [
         {
-            img: "/img/trakiwoman4.jpg",
+            img: "/img/trakiwoman/trakiwoman4.jpg",
             name: "Vestido Valentina",
             description: "Vestido casual basico unicolor",
             precio: 100000,
@@ -26,7 +26,7 @@ Index.args = {
         },
 
         {
-            img: "/img/trakiwoman4.jpg",
+            img: "/img/trakiwoman/trakiwoman4.jpg",
             name: "Vestido Valentina",
             description: "Vestido casual basico unicolor",
             precio: 100000,
@@ -34,7 +34,7 @@ Index.args = {
         },
 
         {
-            img: "/img/trakiwoman4.jpg",
+            img: "/img/trakiwoman/trakiwoman4.jpg",
             name:"Vestido Valentina",
             description:"Vestido casual basico unicolor",
             precio:100000,
@@ -42,7 +42,7 @@ Index.args = {
         },
 
         {
-            img: "/img/trakiwoman4.jpg",
+            img: "/img/trakiwoman/trakiwoman4.jpg",
             name:"Vestido Valentina",
             description:"Vestido casual basico unicolor",
             precio:100000,

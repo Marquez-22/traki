@@ -15,7 +15,7 @@ export default function Index() {
       <Layout>
         <InformationProduct
         
-         img="/img/traki1.jpg"
+         img="/img/trakiwoman/traki1.jpg"
         name="Talego Dulce"
         precio={100000}
         description="Talego corto unicolor, en popelina, manga tira con gola, encauchado atrás"

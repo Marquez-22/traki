@@ -11,6 +11,7 @@ import { Woman } from '@/SVG/woman'
 import { Niños } from '@/SVG/niños'
 import { Man } from '@/SVG/man'
 import { Layout } from '@/components/Layout'
+import { ThemeContent } from '@/components/ThemeContent'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,7 +25,37 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
+        <ThemeContent
+          circleProduct={
+            [
+              {
+                circleimg: "/img/trakiwoman/trakiwoman6.jpg",
+                texto: "Damas",
+              },
+              {
+                circleimg: "/img/trakihome/trakihome5.jpg",
+                texto: "Hogar",
+              },
+              {
+                circleimg: "/img/trakiman/TrakiMan8.jpg",
+                texto: "Caballero",
+              },
+              {
+                circleimg: "/img/trakiluminacion/trakiluminacion.jpg",
+                texto: "Iluminacion",
+              },
+              {
+                circleimg: "/img/trakielectrodomesticos/trakielectrodomesticos.jfif",
+                texto: "Electrodomesticos",
+              },
 
+            ]
+
+          }
+
+
+
+        />
         <CategoriProduct
           nameCategory='TRK Home'
           svgCategory={(<>
@@ -32,17 +63,17 @@ export default function Index() {
           </>)}
           listCategorias={[
             {
-              img: "/img/trakihome1.1.jpg",
+              img: "/img/trakihome/trakihome1.1.jpg",
               text: "Lo nuevo en TRK Home",
               button: "Descubre Mas",
             },
             {
-              img: "/img/trakihome2.jpg",
+              img: "/img/trakihome/trakihome2.jpg",
               text: "Decora tu hogar con TRK Home",
               button: "Descubre Mas",
             },
             {
-              img: "/img/trakihome3.jpg",
+              img: "/img/trakihome/trakihome3.jpg",
               text: "Acercate a TRK Home",
               button: "Descubre Mas",
             },
@@ -57,20 +88,20 @@ export default function Index() {
           </>)}
           listCategorias={[
             {
-              img: "/img/trakiwoman1.jpg",
+              img: "/img/trakiwoman/trakiwoman1.jpg",
               text: "Lo nuevo en TRK woman",
               button: "Descubre Mas",
 
             },
 
             {
-              img: "/img/trakiwoman2.jpg",
+              img: "/img/trakiwoman/trakiwoman2.jpg",
               text: "Inspirate en lo ultimo de la moda",
               button: "Descubre Mas",
 
             },
             {
-              img: "/img/trakiwoman3.jpg",
+              img: "/img/trakiwoman/trakiwoman3.jpg",
               text: "Mira un poco mas TRK woman",
               button: "Descubre Mas",
             }
@@ -112,20 +143,20 @@ export default function Index() {
           </>)}
           listCategorias={[
             {
-              img: "/img/TrakiMan1.jpg",
+              img: "/img/trakiman/TrakiMan1.jpg",
               text: "Encuentra la moda en  TRK Man",
               button: "Descubre Mas",
 
             },
 
             {
-              img: "/img/trakiMan2.jpg",
+              img: "/img/trakiman/trakiMan2.jpg",
               text: "Disponible en TRK Man",
               button: "Descubre Mas",
 
             },
             {
-              img: "/img/TrakiMan3.jpg",
+              img: "/img/trakiman/TrakiMan3.jpg",
               text: "Combina tus Looks",
               button: "Descubre Mas",
             }

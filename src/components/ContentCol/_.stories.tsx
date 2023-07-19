@@ -20,17 +20,17 @@ Index.args = {
     children: <>
 
         <ImagesProduct
-  img='/img/trakihome1.1.jpg'
+  img='/img/trakihome/trakihome1.1.jpg'
   text="Descubre lo ultimo en TRK Home"
   button="Descubre Mas"
         />
         <ImagesProduct
-  img='/img/trakihome2.jpg'
+  img='/img/trakihome/trakihome2.jpg'
   text="Descubre lo ultimo en TRK Home"
   button="Descubre Mas"
         />
         <ImagesProduct
-  img='/img/trakihome3.jpg'
+  img='/img/trakihome/trakihome3.jpg'
   text="Descubre lo ultimo en TRK Home"
   button="Descubre Mas"
         />
