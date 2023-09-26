@@ -1,10 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import { Header } from '../components/Header'
-import { ContentCol } from '../components/ContentCol'
-import { ImagesProduct } from '../components/ImagesProduct'
-import { Footer } from '@/components/Footer'
 import { CategoriProduct } from '@/components/CategoriProduct'
 import { Home } from '@/SVG/home'
 import { Woman } from '@/SVG/woman'
@@ -12,10 +7,13 @@ import { Niños } from '@/SVG/niños'
 import { Man } from '@/SVG/man'
 import { Layout } from '@/components/Layout'
 import { ThemeContent } from '@/components/ThemeContent'
+import { getUsers } from '../fetch/Users'
+import { UserList } from '@/components/UserList'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Index() {
+  getUsers()
   return (
     <>
       <Head>
@@ -24,6 +22,7 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <UserList/>
       <Layout>
         <ThemeContent
           circleProduct={
